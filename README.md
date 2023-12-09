@@ -77,8 +77,18 @@ wget -N https://raw.githubusercontent.com/wyx2685/XrayR-release/master/install.s
 
 ### 手动安装
 
-[手动安装教程](https://xrayr-project.github.io/XrayR-doc/xrayr-xia-zai-he-an-zhuang/install/manual)
+[手动安装教程](https://xrayr-project.github.io/XrayR-doc/xrayr-xia-zai-he-an-zhuang/install/manual)  
 
+### Docker 安装  
+```
+git clone https://github.com/rebecca554owen/XrayR-release && cd XrayR-release
+```
+```
+vim config/config.yml # 修改配置
+```
+```
+docker-compose up -d # 启动docker
+```
 ## 配置文件及详细使用教程
 
 [详细使用教程](https://xrayr-project.github.io/XrayR-doc/)
